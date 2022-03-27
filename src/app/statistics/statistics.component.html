@@ -1,0 +1,9 @@
+<div class="header">
+    <h4>Statistics</h4>
+    <h6>Last Updated {{ duration }} ago</h6>
+</div>
+<div class="row">
+    <app-stat-chip *ngFor="stat of stats, let i = index" [name]="stats[i].name" [num]="stats[i].num"
+        [iconName]="stats[i].iconName">
+    </app-stat-chip>
+</div>

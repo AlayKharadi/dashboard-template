@@ -1,0 +1,28 @@
+:host{
+    display: flex;
+    align-items: center;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+fa-icon{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.1rem;
+    background-color: var(--text-color);
+    color: whitesmoke;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content *{
+    text-align: end;
+}

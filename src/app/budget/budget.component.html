@@ -1,0 +1,14 @@
+<select>
+    <option *ngFor="year of years; let i = index">{{years[i]}}</option>
+</select>
+<h1>
+    ${{ num }}
+</h1>
+<p>
+    Budget: {{ budget }}
+</p>
+<canvas baseChart [data]="barChartData" [type]="'line'" [options]="barChartOptions">
+</canvas>
+<button class="btn">
+    Increase Budget
+</button>

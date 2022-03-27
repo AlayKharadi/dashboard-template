@@ -1,0 +1,19 @@
+:host{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0.2rem;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}

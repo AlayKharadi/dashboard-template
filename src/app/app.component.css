@@ -1,0 +1,19 @@
+:host{
+    padding: 1rem;
+    display: flex;
+    gap: var(--padding);
+    align-items: flex-start;
+}
+
+.column{
+    display: grid;
+    gap: var(--padding);
+    grid-template-rows: auto auto;
+}
+
+@media only screen and (max-width: 1150px) {
+    .column{
+        grid-template-columns: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.1rem;
+    background-color: white;
+}
+
+.root .logo{
+    color: var(--text-color);
+}
+
+.root hr{
+    width: 100%;
+    margin: 0rem;
+    color: black;
+}
+
+.root fa-icon{
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+}

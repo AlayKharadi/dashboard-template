@@ -1,0 +1,30 @@
+:host{
+    padding: var(--padding);
+    display: grid;
+    grid-template-columns: auto 10rem;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0.2rem;
+    height: 100%;
+}
+
+h4, h5, h1, div{
+    padding: 0.1rem;
+}
+
+fa-icon{
+    font-size: 8rem;
+    text-align: center;
+    color: rgb(233, 196, 104);
+}
+
+.column{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.column h1{
+    color: var(--text-color);
+}
