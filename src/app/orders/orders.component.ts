@@ -19,7 +19,9 @@ export class OrdersComponent implements OnInit {
 				backgroundColor: 'orange',
 				hoverBackgroundColor: 'orange',
 				borderColor: 'transparent',
-				hoverBorderColor: 'transparent'
+				hoverBorderColor: 'transparent',
+				barThickness: 8,
+				borderRadius: 8
 			}],
 			labels: ['2006', '2007', '2008', '2009', '2010', '2011']
 		}

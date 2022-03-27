@@ -44,6 +44,11 @@ export class BudgetComponent implements OnInit {
 				y: {
 					display: false
 				}
+			},
+			elements: {
+				point: {
+					radius: 0
+				}
 			}
 		}
 	}

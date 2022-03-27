@@ -19,14 +19,18 @@ export class RevenueComponent implements OnInit {
           label: 'earnings',
           stack: 'profit',
           backgroundColor: 'rgb(112, 60, 255)',
-          hoverBackgroundColor: 'rgb(112, 60, 255)'
+          hoverBackgroundColor: 'rgb(112, 60, 255)',
+          barThickness: 8,
+          borderRadius: 8
 
         }, {
           data: [ -7, -25, -20, -17, -13, -15, -10, -5],
           label: 'expenses',
           stack: 'profit',
           backgroundColor: 'orange',
-          hoverBackgroundColor: 'orange'
+          hoverBackgroundColor: 'orange',
+          barThickness: 8,
+          borderRadius: 8
         }
       ],
       labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug']
@@ -34,7 +38,30 @@ export class RevenueComponent implements OnInit {
 
     this.barChartOptions = {
       responsive: true,
-      maintainAspectRatio: true
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          display: true,
+          position: 'top',
+          align: 'end',
+          labels: {
+            usePointStyle: true,
+            padding: 25,
+          },
+        }
+      },
+      scales: {
+        x: {
+          grid: {
+            display: false
+          }
+        },
+        y: {
+          grid: {
+            display: false
+          }
+        }
+      }
 		}
   }
 

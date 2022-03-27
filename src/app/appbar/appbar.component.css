@@ -1,21 +1,21 @@
-.root{
+:host{
     display: flex;
     flex-direction: column;
     border-radius: 0.1rem;
     background-color: white;
 }
 
-.root .logo{
+.logo{
     color: var(--text-color);
 }
 
-.root hr{
+hr{
     width: 100%;
     margin: 0rem;
     color: black;
 }
 
-.root fa-icon{
+fa-icon{
     padding: 1rem;
     cursor: pointer;
     text-align: center;
